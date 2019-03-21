@@ -40,7 +40,7 @@ body
     width: 100%;
     height: 813px;
 
-    background-image: url(img/headerbackground.jpg);
+    background-image: url(./img/headerbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -98,6 +98,19 @@ body
     background-color: #ff6d6d;
 }
 
+@media (max-width: 670px) 
+{
+  .header__content
+  {
+    padding-top: 10%;
+  }
+  .header__title
+  {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+}
 .header__button-try-now:hover
 {
     opacity: 1;
@@ -121,25 +134,14 @@ body
     color: #282828;
 }
 
-@media (max-width: 670px) 
-{
-  .header__content
-  {
-    padding-top: 10%;
-  }
-  .header__title
-  {
-    font-size: 50px;
-  }
-  
-}
+
 .section-new-design
 {
     display: flex;
     flex-direction: row;
 
     width: 100%;
-    height: 715px;
+    height: 815px;
 
     justify-content: space-between;
 }
@@ -155,6 +157,7 @@ body
 .section-title-red
 {
     font-size: 16px;
+    padding-top: 3%;
 
     margin: 0;
 
@@ -206,7 +209,7 @@ body
 .section-new-design__img > img
 {
     position: relative;
-    top: 235px;
+    top: 335px;
 
     max-width: 568px;
 
@@ -236,8 +239,10 @@ body
 
 .section-new-features__content
 {
-    padding-top: 138px;
-    padding-bottom: 184px;
+    /*padding-top: 138px;
+    padding-bottom: 184px;*/
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 .section-new-features__block
@@ -245,8 +250,10 @@ body
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    padding-top: 4%;
+    padding-bottom: 4%;
 
-    padding-top: 91px;
+    /*padding-top: 91px;*/
 
     justify-content: center;
 }
@@ -280,7 +287,8 @@ body
     display: flex;
 
     height: 550px;
-    padding: 93px 0 90px 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
     padding-left: 7%;
 
     background-image: url(./img/Rectangle21copy2.png);
@@ -329,7 +337,7 @@ body
 .clients
 {
     min-height: 648px;
-    padding-bottom: 90px;
+    padding-bottom: 0%;
 
     opacity: .8;
     background-image: url(./img/clientsbackground.jpg);
@@ -346,7 +354,7 @@ body
     align-items: center;
 
     flex-wrap: wrap;
-    margin-top: 50px;
+    /*margin-top: 10px;*/
 }
 
 .browser
@@ -355,7 +363,7 @@ body
     flex-direction: column;
 
     max-height: 754px;
-    padding-top: 108px;
+    padding-top: 10%;
     padding-left: 10%;
     padding-right:10%;
 
@@ -476,15 +484,14 @@ body
     display: flex;
     flex-wrap: wrap-reverse;
 
-    min-height: 333px;
-    padding-top: 70px;
+    padding-top: 5%;
     padding-right: 25%;
-    padding-bottom: 70px;
+    padding-bottom: 5%;
     padding-left: 15%;
 
     background-image: url(./img/footerback.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: top right;
 
     justify-content: space-between;
 }
@@ -526,9 +533,13 @@ body
 {
     font-size: 22px;
 
-    margin: 0;
     margin-top: 10px;
     margin-bottom: 25px;
+}
+
+.row
+{
+  padding: 2%;
 }
 
 .social-icon
@@ -539,7 +550,8 @@ body
 
 .get-newsletter
 {
-    box-sizing: border-box;
+  width: 280px;
+  height: 60px;
 }
 
 .get-newsletter__input
