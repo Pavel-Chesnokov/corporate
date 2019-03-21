@@ -2,21 +2,21 @@
 {
     font-family: 'Exo-Thin';
 
-    src: url('../fonts/Exo/ExoThin.ttf') format('truetype');
+    src: url('./fonts/Exo/ExoThin.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: 'Exo-Regular';
 
-    src: url('/fonts/Exo/ExoRegular.ttf') format('truetype');
+    src: url('./fonts/Exo/ExoRegular.ttf') format('truetype');
 }
 
 @font-face
 {
     font-family: 'Exo-Medium';
 
-    src: url('/fonts/Exo/ExoMedium.ttf') format('truetype');
+    src: url('./fonts/Exo/ExoMedium.ttf') format('truetype');
 }
 
 
@@ -40,7 +40,7 @@ body
     width: 100%;
     max-height: 813px;
 
-    background-image: url(../img/headerbackground.jpg);
+    background-image: url(./img/headerbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -206,7 +206,7 @@ body
     max-height: 675px;
 
     background-color: #f6f5f3;
-    background-image: url(img/3layers.png);
+    background-image: url(./img/3layers.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -260,7 +260,7 @@ body
     padding: 93px 55px 90px 55px;
     padding-left: 55px;
 
-    background-image: url(/img/Rectangle21copy2.png);
+    background-image: url(./img/Rectangle21copy2.png);
     background-repeat: no-repeat;
     background-position-y: -200px;
 
@@ -302,7 +302,7 @@ body
     padding-bottom: 90px;
 
     opacity: .8;
-    background-image: url(/img/clientsbackground.jpg);
+    background-image: url(./img/clientsbackground.jpg);
 }
 
 .logo-clients
@@ -342,7 +342,7 @@ body
 
     text-align: center;
 
-    background-image: url(img/trynow.jpg);
+    background-image: url(./img/trynow.jpg);
     /*align-items: center;*/
 
     justify-content: center;
@@ -428,7 +428,7 @@ body
     padding-bottom: 70px;
     padding-left: 149px;
 
-    background-image: url(img/footerback.png);
+    background-image: url(./img/footerback.png);
     background-repeat: no-repeat;
     background-position: right;
 
