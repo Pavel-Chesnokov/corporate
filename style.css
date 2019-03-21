@@ -40,7 +40,7 @@ body
     width: 100%;
     max-height: 813px;
 
-    background-image: url(../img/header_background.jpg);
+    background-image: url(../img/headerbackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -206,7 +206,7 @@ body
     max-height: 675px;
 
     background-color: #f6f5f3;
-    background-image: url(/img/4-layers.jpg);
+    background-image: url(/img/4layers.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -260,7 +260,7 @@ body
     padding: 93px 55px 90px 55px;
     padding-left: 55px;
 
-    background-image: url(/img/Rectangle\ 21\ copy\ 2.png);
+    background-image: url(/img/Rectangle21copy2.png);
     background-repeat: no-repeat;
     background-position-y: -200px;
 
@@ -302,7 +302,7 @@ body
     padding-bottom: 90px;
 
     opacity: .8;
-    background-image: url(/img/clients_background.jpg);
+    background-image: url(/img/clientsbackground.jpg);
 }
 
 .logo-clients
@@ -342,7 +342,7 @@ body
 
     text-align: center;
 
-    background-image: url(img/try-now.jpg);
+    background-image: url(img/trynow.jpg);
     /*align-items: center;*/
 
     justify-content: center;
@@ -428,7 +428,7 @@ body
     padding-bottom: 70px;
     padding-left: 149px;
 
-    background-image: url(img/footer-back.png);
+    background-image: url(img/footerback.png);
     background-repeat: no-repeat;
     background-position: right;
 
